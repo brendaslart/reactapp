@@ -35,6 +35,7 @@ function App() {
 
   return <>
   <div className="app">
+    holaholaaaholaaaa
   <Navbar/>
   <Title/>
   <Title2/>
