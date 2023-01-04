@@ -1,0 +1,365 @@
+
+
+  
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*titulo explore the treasures, con imagenes pequeñas*/
+
+.title {
+  color: #ecb75b;
+  font-family: LaObrige;
+}
+
+.venus {
+  width: 65px;
+  height: 100%;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.starry {
+  width: 60px;
+  height: 100%;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.explore-block {
+  display: flex;
+  align-items: center;
+}
+.treasures-block {
+  display: flex;
+  align-items: center;
+}
+
+/*titulo THE MUSEUM COLLECTION/1855 */
+
+.the-museum-block {
+  display: inline-block;
+
+  font-family: LaObrige;
+  font-size: 75px;
+  text-align: center;
+  letter-spacing: 15px;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.year-block {
+  display: flex;
+  align-items: center;
+  font-family: emoji;
+  font-size: 40px;
+  text-align: left;
+  padding: 10px;
+  position: absolute;
+  left: -5px;
+  top: -67px;
+}
+
+.second-year-block {
+  display: flex;
+  align-items: center;
+  font-family: emoji;
+  font-size: 40px;
+  text-align: left;
+  padding: 10px;
+  position: absolute;
+  right: 362px;
+  bottom: -65px;
+}
+
+/*5 imagenes detras de 1855*/
+.imagenes-grupo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-block {
+  display: flex;
+  position: relative;
+}
+
+.second-block {
+  display: flex;
+  position: relative;
+}
+
+.mujer {
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  border-top-left-radius: 100px;
+}
+
+.hercules {
+  padding: 10px;
+  width: 700px;
+  height: 300px;
+  border-radius: 15px;
+  margin-right: 10px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.girasoles {
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+  object-fit: cover;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.monalisa {
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+  object-fit: cover;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.beso {
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.title3 {
+  display: flex;
+  color: #ecb75b;
+  font-family: LaObrige;
+  font-size: 75px;
+  text-align: center;
+  letter-spacing: 15px;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.tickets-block {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.ticket-letters {
+}
+
+.star {
+  position: absolute;
+  width: 40px;
+  top: 10.5rem;
+  left: 28.5rem;
+}
+
+.buy-tickets-group {
+  display: flex;
+  width: 100%;
+  height: 25rem;
+  max-width: 100%;
+  border: 2px solid #ecb75b;
+}
+
+.tickets-first-block {
+  display: flex;
+  width: 50%;
+  color: #ecb75b;
+  font-family: emoji;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tickets-second-block {
+  display: flex;
+  width: 50%;
+}
+
+.first-number-date {
+  font-size: 80px;
+}
+.second-number-date {
+  font-size: 80px;
+}
+
+.tickets-date-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.month-seccion {
+  font-size: 30px;
+  max-width: 40px;
+}
+
+.date-seccion {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.date-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 60px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.tickets-images {
+  width: 65px;
+  height: auto;
+  padding: 5px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.retrato2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+}
+
+.images-seccion {
+  display: flex;
+}
+
+.information-title {
+  display: flex;
+  color: #ecb75b;
+  font-family: LaObrige;
+  font-size: 100px;
+  text-align: center;
+  letter-spacing: 15px;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+  border-bottom: 2px solid #fff;
+  margin-top: 4rem;
+  font-family: LaObrige;
+}
+
+.information-title h3{
+  margin: 0px;
+}
+
+.information-block {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+  position: relative;
+  top: -2.3rem;
+  background: #0E0E0E;
+  border-top: 2px #ecb75b solid;
+}
+
+.info-seccion {
+  display: flex;
+
+  flex-direction: column;
+  color: #fff;
+  font-family: emoji;
+  padding: 80px;
+  align-items: justify;
+  width: auto;
+
+}
+
+.title-info-seccion {
+  color: #ecb75b;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-museum-seccion {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-museum-seccion .navBar-link {
+  padding: 5px;
+  font-family: emoji;
+  font-size: 20px;
+}
+
+/*div  padre (de app), esta en app.js   */
+.app {
+  background-color: #0e0e0e;
+  /*ponemos el 100 deancho al padre (definimos el ancho 
+    y alto de clase app)*/
+  width: 100%;
+  /*altura en vh (viewport tamaño completo de pantalla) para que tome el ancho de  todo el navegador*/
+  height: 100%;
+}
+
+/*nav bar y links*/
+.navbar {
+  display: flex;
+}
+
+.navBar-link {
+  padding: 25px;
+  text-decoration: none;
+
+  font-family: LaObrige;
+}
+
+.active-link {
+  color: #ecb75b;
+}
+
+.default-link {
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
