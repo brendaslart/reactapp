@@ -1,7 +1,7 @@
 const Title5 = () => {
   return (
     <div className="information-title">
-      <h3>Visit our new art gallery</h3>
+      <h3>Vistit our amazing art gallery today!</h3>
     </div>
   );
 };
