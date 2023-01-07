@@ -29,7 +29,7 @@ function App() {
     <>
       <div className="app">
         <Navbar />
-        <Title />
+        <Title1 />
         <Title2 />
         <Title3 />
         <BuyTicketsGroup />
