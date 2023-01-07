@@ -33,6 +33,7 @@ function App() {
         <Title2 />
         <Title3 />
         <BuyTicketsGroup />
+        <Title5 />
         <Title4 />
         <Information />
       </div>
