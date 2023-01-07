@@ -15,12 +15,13 @@ import Image from "./components/Image";
 
 /* art museum page*/
 import Navbar from "./components/shared/NavBar";
-import Title from "./components/shared/Title";
+import Title1 from "./components/shared/Title";
 import Title2 from "./components/shared/Title2";
 import Title3 from "./components/shared/Title3";
 import BuyTicketsGroup from "./components/shared/BuyTicketsGroup";
 import Title4 from "./components/shared/Title4";
 import Information from "./components/shared/Information";
+import Title5 from "./components/shared/Title5";
 
 function App() {
   const [myText1, setMyText1] = useState("Holaaaaa1");
