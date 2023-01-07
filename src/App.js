@@ -1,4 +1,3 @@
-
 import { useCallback, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
@@ -24,30 +23,21 @@ import Title4 from "./components/shared/Title4";
 import Information from "./components/shared/Information";
 
 function App() {
-
   const [myText1, setMyText1] = useState("Holaaaaa1");
 
- 
-
-  
-
- 
-
-  return <>
-  <div className="app">
-    holaholaaaholaaaa
-  <Navbar/>
-  <Title/>
-  <Title2/>
-  <Title3/>
-  <BuyTicketsGroup/>
-  <Title4/>
-  <Information/>
-  </div>
-
-  
-  
-  </>
+  return (
+    <>
+      <div className="app">
+        <Navbar />
+        <Title />
+        <Title2 />
+        <Title3 />
+        <BuyTicketsGroup />
+        <Title4 />
+        <Information />
+      </div>
+    </>
+  );
 }
 
 export default App;
