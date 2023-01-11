@@ -25,7 +25,9 @@ const BuyTicketsGroup = (pops) => {
             </div>
           </div>
           <div>
-            <button className="buy-tickets-button" as={Link}>Buy ticket</button>
+            <button className="buy-tickets-button" as={Link}>
+              Buy Ticket
+            </button>
           </div>
           <div className="images-seccion">
             <Image className="tickets-images" src={Calle} />
