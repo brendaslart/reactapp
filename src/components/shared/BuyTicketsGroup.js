@@ -4,6 +4,7 @@ import Retrato1 from "../../assets/retrato1.jpg";
 import Noche from "../../assets/noche.jpg";
 import Cerezo from "../../assets/cerezo.jpg";
 import Retrato2 from "../../assets/retrato2.jpg";
+import vicente1 from "../../assets/vicente.jpg";
 
 const BuyTicketsGroup = (pops) => {
   return (
@@ -34,7 +35,7 @@ const BuyTicketsGroup = (pops) => {
       <div
         className="tickets-second-block"
         style={{
-          backgroundImage: `url(${Retrato2})`,
+          backgroundImage: `url(${vicente1})`,
           backgroundSize: `100%`,
           backgroundRepeat: `no-repeat`,
           backgroundPosition: `50% 50%`
