@@ -255,6 +255,20 @@
   object-fit: cover;
 }
 
+.buy-tickets-button{
+ background-color: #ecb75b;
+ display: flex;
+ height: 30px;
+ width: 150px;
+ text-align: center;
+ align-items: center;
+ border-top-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+margin-bottom: 20px;
+ 
+}
+
+
 .images-seccion {
   display: flex;
 }
