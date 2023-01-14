@@ -344,6 +344,8 @@
 /*nav bar y links*/
 .navbar {
   display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 .navBar-link {
@@ -351,6 +353,31 @@
   text-decoration: none;
 
   font-family: LaObrige;
+}
+
+.pokeButton {
+  height: 31px;
+  text-align: center;
+  background-color: #ffb523;
+  color: #fff;
+  box-shadow: #f4d495 0px 0px 0px 2px , rgb(255 255 255) 10px 10px 0px -3px,
+    #f4d495 10px 10px;
+  padding: 4px 10px;
+  border: 2px solid #f4d495;
+  font-size: 14px;
+  font-family: cursive;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+
+}
+
+.pokeButton:active {
+  border-style: none;
+}
+
+.pokeButton:hover {
+  color:black;
+  cursor:pointer ;
 }
 
 .active-link {
