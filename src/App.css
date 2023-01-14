@@ -388,6 +388,66 @@
   color: #fff;
 }
 
+.pokered {
+  background-color: #e86f1c;
+  padding: 4px 10px;
+  border-radius: 30px;
+  border: 2px solid #721702;
+  box-shadow: 1px 2px #721702;
+  margin-bottom: 10px;
+  color: #721702;
+  font-weight: 800;
+  min-width: 82px;
+}
+
+.pokeblue {
+  background-color: #11c4ef;
+  padding: 4px 10px;
+  border-radius: 30px;
+  border: 2px solid #006b85;
+  box-shadow: 1px 2px #006b85;
+  margin-bottom: 10px;
+  color: #006b85;
+  font-weight: 800;
+  min-width: 82px;
+}
+
+.pokegreen {
+  background-color: #0ade65;
+  padding: 4px 10px;
+  border-radius: 30px;
+  border: 2px solid #03622c;
+  box-shadow: 1px 2px #03622c;
+  margin-bottom: 10px;
+  color: #03622c;
+  font-weight: 800;
+  min-width: 82px;
+}
+
+.pokepurple {
+  background-color: #e90f92;
+  padding: 4px 10px;
+  border-radius: 30px;
+  border: 2px solid #560435;
+  box-shadow: 1px 2px #560435;
+  margin-bottom: 10px;
+  color: #560435;
+  font-weight: 800;
+  min-width: 82px;
+}
+
+.pokegray {
+  background-color: #dfe6f4;
+  padding: 4px 10px;
+  border-radius: 30px;
+  border: 2px solid #2c2c2c;
+  box-shadow: 1px 2px #2c2c2c;
+  margin-bottom: 10px;
+  color: #2c2c2c;
+  font-weight: 800;
+  min-width: 82px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
