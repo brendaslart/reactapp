@@ -6,7 +6,7 @@ import Cerezo from "../../assets/cerezo.jpg";
 import vicente1 from "../../assets/vicente.jpg";
 import Link from "../common/Link";
 
-const BuyTicketsGroup = (pops) => {
+const BuyTicketsGroup = (props) => {
   return (
     <div className="buy-tickets-group">
       <div className="tickets-first-block">
@@ -44,6 +44,7 @@ const BuyTicketsGroup = (pops) => {
           backgroundSize: `100%`,
           backgroundRepeat: `no-repeat`,
           backgroundPosition: `50% 50%`,
+          
         }}
       ></div>
     </div>
