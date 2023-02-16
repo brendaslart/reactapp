@@ -24,6 +24,7 @@ import Information from "./components/shared/Information";
 import Title5 from "./components/shared/Title5";
 import PokeCardButton from "./components/shared/PokeButton";
 import PokeCard from "./components/shared/PokeCard";
+import MainCard from "./components/shared/MainCard";
 
 function App() {
   const [myText1, setMyText1] = useState("Holaaaaa1");
@@ -39,13 +40,7 @@ function App() {
         <Title5 />
         <Title4 />
         <Information />
-        <PokeCardButton type="fire" />
-        <PokeCardButton type="water" />
-        <PokeCardButton type="grass" />
-        <PokeCardButton type="poison" />
-        <PokeCardButton type="flying" />
-       <PokeCard types="grass" />
-
+        
       </div>
     </>
   );
