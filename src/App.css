@@ -431,6 +431,19 @@
 
 }
 
+.MainCard{
+  display:flex;
+  flex-direction: column;
+  background-color:  #faf5cf;
+  padding: 1rem;
+  border-radius: 20px;
+  border:solid 1px #000;
+  margin: 1rem;
+  justify-content: center;
+  text-decoration: underline;
+  align-items:center;
+ 
+}
 
 .active-link {
   color: #ecb75b;

@@ -7,7 +7,7 @@ const PokeCard = ({ types }) => {
         grass: {background: "card-green"},
         flying: {background: "card-gray"},
         poison: {background: "card-purple"}
-        
+         
       };
 
       return(
