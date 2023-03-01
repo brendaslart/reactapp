@@ -9,6 +9,11 @@ const PokeCardButton = ({ type }) => {
     grass: { label: "GRASS", colorClass: "pokegreen" },
     poison: { label: "POISON", colorClass: "pokepurple" },
     flying: { label: "FLYING", colorClass: "pokegray" },
+    normal: { label: "NORMAL", colorClass: "pokeNormal" },
+    electric: { label: "ELECTRIC", colorClass: "pokeElectric" },
+    fairy: { label: "FAIRY", colorClass: "pokeFairy" },
+    ground: { label: "GROUND", colorClass: "pokeground" },
+    
   };
 
   function handleClick() {
